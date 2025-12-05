@@ -13,12 +13,24 @@
       --accent: #8c6b5e;
       --line: #e9e3de;
     }
-    body {margin: 0;background: url('fondo.png') repeat center top;background-size: 300px; /* ajusta el tamaño del patrón */ color: var(--text);font-family: Inter, system-ui, sans-serif;}
+    body {margin: 0;background: url('fondo.png') repeat center top;background-size: 600px; /* ajusta el tamaño del patrón */ color: var(--text);font-family: Inter, system-ui, sans-serif;}
 
     
     @font-face { font-family: 'Lucian Schoenschrift';src: url('fonts/LucianSchoenschrift.ttf') format('truetype');}
-    h1 {font-family: 'Lucian Schoenschrift', cursive; font-size: 64px;color: #6ca0dc; /* azul claro */margin: 0;}
-
+          .hero {
+        padding: 64px 24px;
+        text-align: center;   /* asegura que todo dentro de hero esté centrado */
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      
+      h1 {
+        font-family: 'Lucian Schoenschrift', cursive;
+        font-size: 64px;
+        color: #6ca0dc; /* azul claro */
+        margin: 0;
+        text-align: center;   /* fuerza centrado del título */
+      }
 
 
     .subtitle { font-family: "Cormorant Garamond", serif; font-size: 22px; margin-top: 8px; color: var(--accent); }
