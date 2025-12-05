@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Alessandro & Jessica — 13/09/2026</title>
@@ -14,11 +13,12 @@
       --accent: #8c6b5e;
       --line: #e9e3de;
     }
-    body { margin: 0;background: url('fondo.png') no-repeat center center fixed; background-size: cover; color: var(--text);font-family: Inter, system-ui, sans-serif;}
-    .hero {
-      padding: 64px 24px; text-align:center; max-width: 900px; margin: 0 auto;
-    }
-    h1 { font-family: 'Great Vibes', cursive; font-size: 64px;color: #6ca0dc; /* azul claro */ margin: 0;}
+    body {margin: 0;background: url('fondo.png') repeat center top;background-size: 300px; /* ajusta el tamaño del patrón */ color: var(--text);font-family: Inter, system-ui, sans-serif;}
+
+    
+    @font-face { font-family: 'Lucian Schoenschrift';src: url('fonts/LucianSchoenschrift.ttf') format('truetype');}
+    h1 {font-family: 'Lucian Schoenschrift', cursive; font-size: 64px;color: #6ca0dc; /* azul claro */margin: 0;}
+
 
 
     .subtitle { font-family: "Cormorant Garamond", serif; font-size: 22px; margin-top: 8px; color: var(--accent); }
@@ -118,6 +118,7 @@
   </script>
 </body>
 </html>
+
 
 
 
